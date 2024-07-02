@@ -3,12 +3,16 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url("bluebackground.png");
 }
 
-
+body {
+  background-image: url("../public/img/waterbackground.png");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+}
 
 .card {
+  background-color: #97D5FC;
   padding: 2em;
 }
 
