@@ -27,7 +27,7 @@ function App() {
     <>
       <div className="card text-center">
         <div className="card-header">
-          Drink your Water
+           WATER TRACKER
         </div>
         <div className="card-body">
           <h5 className="card-title">Water</h5>

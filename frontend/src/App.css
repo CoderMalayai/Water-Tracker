@@ -11,9 +11,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.card-header {
+  font-weight: bolder;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
 .card {
   background-color: #97D5FC;
   padding: 2em;
+  font-weight: bolder;
 }
 
 .cups {
