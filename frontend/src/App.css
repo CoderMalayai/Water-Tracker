@@ -16,6 +16,10 @@ body {
   padding: 2em;
 }
 
+.cups {
+  padding: 20px;
+}
+
 .read-the-docs {
   color: #888;
 }

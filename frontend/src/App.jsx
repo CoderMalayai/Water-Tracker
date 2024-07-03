@@ -25,17 +25,19 @@ function App() {
   }
   return (
     <>
-      <div class="card text-center">
-        <div class="card-header">
+      <div className="card text-center">
+        <div className="card-header">
           Drink your Water
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Water</h5>
+        <div className="card-body">
+          <h5 className="card-title">Water</h5>
           <p>Every 1 cup/8oz of water click button</p>
-          <div>
+          <div className="cups">
             {cups}
           </div>
+          <div className="d-grid gap-2">
           <button className="btn btn-primary" onClick={handleClick}>CLICK ME</button>
+          </div>
         </div>
       </div>
     </>
